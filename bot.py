@@ -1,8 +1,8 @@
 notepad bot.py
 from instagrapi import Client
 
-username = "ritt.aerina_IG"
-password = "akukamu2020_IG"
+username = "ritt.aerina"
+password = "akukamu2020"
 
 cl = Client()
 cl.login(username, password)
@@ -18,6 +18,6 @@ Kirim CV via DM
 #lowongankerja #loker
 """
 
-cl.photo_upload("loker.jpg", caption)
+cl.photo_upload("loker.jpg")
 
 print("Posting berhasil")
